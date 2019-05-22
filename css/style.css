@@ -1,0 +1,114 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+#container {
+ min-height: 100%
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 50px;
+    height: 1000px;
+}
+
+#footer {
+    background-color: #212529;
+    position: relative;
+    height: 50px;
+    margin-top: -50px;
+    clear: both;
+}
+
+.btnblue {
+    border-radius: 10px;
+    }
+
+.btnyellow {
+    border-radius: 10px;
+    background-color: #efac50; }
+
+.btngreen {
+    border-radius: 10px;
+    background-color: #5ab75d; }
+
+    
+
+.viewbtn {
+    width: 25%;
+}
+
+.cardyellow{
+    border-radius: 10px;
+    background-color: #efac50;  
+}
+
+.cardgreen{
+    border-radius: 10px;
+    background-color: #5ab75d;  
+}
+
+.cardblue{
+    border-radius: 10px;  
+}
+
+.btngreen2 {
+    background-color: #5ab75d; }
+
+
+.btnyellow2 {
+    background-color: #efac50; }
+
+.dash {
+    background-color: #5ab75d; }
+
+.dash2 {
+    background-color: #efac50; }
+
+#main2 {
+    overflow: auto;
+    padding-bottom: 50px;
+    height: 500px;
+}
+
+#footer2 {
+    background-color: #212529;
+    position: relative;
+    height: 50px;
+    margin-top: -50px;
+    clear: both;
+}
+
+#main3 {
+    overflow: auto;
+    padding-bottom: 50px;
+    height: 600px;
+}
+
+#footer3 {
+    background-color: #212529;
+    position: relative;
+    height: 50px;
+    margin-top: -50px;
+    clear: both;
+}
+
+#main4 {
+    overflow: auto;
+    padding-bottom: 50px;
+    height: 800px;
+}
+
+#footer4 {
+    background-color: #212529;
+    position: relative;
+    height: 50px;
+    margin-top: -50px;
+    clear: both;
+}
+

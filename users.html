@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Blogen: Users</title>
+</head>
+<body id="home">
+
+   <!-- Footer -->
+<div id="container"> <!-- id can be used for two things, to refrence a section in our css and scss and to link pages in the html -->
+  <div id="main"> <!-- All the website content will be inside this  -->
+<!-- NAV BAR LOGO/BRAND -->
+<nav class="navbar navbar-expand-md  navbar-dark bg-dark py-0">
+    <div class="container">
+      <span class="align-bottom">
+        <h5> <a href="index.html" class="nav-link active mr-3 text-white">Blogen</a></h5>
+      </span>
+    <!-- NAV BAR MENUS -->
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+              <li class="nav-item px-2">
+<!-- We are giving our home menu an id of home so when the home is clicked it takes us to the top which is the <body> so we need to place this home id inside the body tag also which we've done -->
+                  <a href="index.html" class="nav-link">Dashboard</a>
+              </li>
+              <li class="nav-item px-2">
+                  <a href="posts.html" class="nav-link">Posts</a>
+              </li>
+              <li class="nav-item px-2">
+                  <a href="categories.html" class="nav-link">Categories</a>
+              </li>
+              <li class="nav-item px-2">
+                  <a href="users.html" class="nav-link active">Users</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown px-2"> <!--- the "dropdown" inside the nav-item class makes it stay directly inside the menu and not far left or right -->
+              <a href="#welcome" class="nav-link dropdown-toggle" data-toggle="dropdown""> <i class="fa fa-user"></i> Welcome Michaelz</a>
+              <div class="dropdown-menu align-self-right">
+                <a href="profile.html" class="dropdown-item"><i class="fa fa-user-circle"></i>  Profile</a>
+                <a href="settings.html" class="dropdown-item"><i class="fa fa-cog"></i>  Settings</a>
+
+              </div>
+            </li>
+
+            <li class="nav-item px-2">
+                <a href="login.html" class="nav-link"><i class="fa fa-user-times"></i>  Logout</a>
+              </li>
+
+            </ul>
+          </div>
+      </div>
+        </nav>
+
+<!-- DASHBOARD -->
+<div class="bg-outline-warning dash2">
+<div class="container">
+<h1 class="py-3 text-white"> <i class="fa fa-users"></i> Users</h1>
+</div>
+</div>
+
+ <!-- BUTTONS -->
+ <div class="container py-4">
+   <div class="row">
+     <div class="col-md-6">
+ </div>
+      <!-- SEARCH BOX INPUT GROUP -->
+ <div class="container py-4">
+        <div class="row">
+          <div class="col-md-6">
+     
+      </div>
+      <div class="col-md-6">
+             <div class="input-group">
+                     <input class="form-control" type="text" placeholder="Search users...">
+                     <div class="input-group-prepend">
+                         <button class="btn btn-warning btnyellow text-white"type="button">Search</button>
+                     </div>
+                 </div>
+                 </div>
+      
+        </div>
+</div>
+</div>
+ </div>
+
+<!--- TABLE -->
+<div class="container py-4">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card mb-3">
+        <div class="card-header">                
+               <h4>Users</h4>
+        </div>
+            <div class="table-responsive">
+               <table class="table table-striped table-hover">
+
+            <thead class="thead-dark">
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Date Registered</th>
+                  
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td scope="row">1</th>
+                    <td>Michaelz Omoakin</td>
+                    <td>akindiileteforex@gmail.com</td>
+                    <td>November 11, 2018</td>
+                </tr>
+
+                <tr>
+                    <td scope="row">2</th>
+                    <td>Akindiilete Abimbola</td>
+                    <td>vickyluv4xt@yahoo.com</td>
+                    <td>November 12, 2018</td>
+                 
+                </tr>
+             
+            </tbody>
+        </table>
+    </div>
+        <!-- PAGINATION -->
+<nav class="ml-2">
+        <ul class="pagination">
+            <li class="page-item disabled"><a class="page-link" href="#"> <i class="fa fa-backward"></i> </a></li>
+            <li class="page-item active"><a  class="page-link "href="#">1</a></li>
+            <li class="page-item"><a  class="page-link"href="#">2</a></li>
+            <li class="page-item"><a  class="page-link"href="#">3</a></li>
+            <li class="page-item"><a  class="page-link"href="#"><i class="fa fa-forward"></i></a></li>
+        </ul>
+    </nav>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+</div> <!--All website contents terminates here -->
+
+</div>
+<footer id="footer">
+<p class="lead text-white text-center">Copyright 2018 &copy; Blogen</p>
+</footer>
+
+
+
+
+    
+  
+
+
+
+    
+
+           
+
+
+
+
+
+
+
+
+            <script src="js/jquery.min.js"></script>
+            <script src="js/popper.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/navbar-fixed.js"></script>
+            <script src="https://cdn.ckeditor.com/4.7.1/standard/ckeditor.js"></script> <!-- This creates editor in our modal -->
+            <!-- "editor1" can be any name and you must quote the name inside the text area class where you want the editor to apppear  {name="editor1") -->
+            <script>
+              CKEDITOR.replace('editor1'); 
+            </script> 
+         </body>
+          </html>
